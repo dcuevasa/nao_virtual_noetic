@@ -4,7 +4,7 @@ This repo is an updated version of [nao_virtual](https://github.com/ros-naoqi/na
 ## Dependencies:
 
 To run you need another package in your workspace:
-- nao_robot
+- [nao_robot_noetic](https://github.com/dcuevasa/nao_robot_noetic)
 
 ## Installation (based on [awesomebytes](https://github.com/awesomebytes) [pepper_virtual description](https://github.com/awesomebytes/pepper_virtual)):
 
@@ -12,8 +12,7 @@ To run you need another package in your workspace:
 mkdir -p nao_sim_ws/src
 cd nao_sim_ws/src
 git clone https://github.com/dcuevasa/nao_virtual_noetic
-git clone TODO
-git clone TODO
+git clone https://github.com/dcuevasa/nao_robot_noetic
 # In case you are missing any of these
 sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python
 cd ..
