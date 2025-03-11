@@ -14,7 +14,7 @@ cd nao_sim_ws/src
 git clone https://github.com/dcuevasa/nao_virtual_noetic
 git clone https://github.com/dcuevasa/nao_robot_noetic
 # In case you are missing any of these
-sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python
+sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python ros-noetic-nao-meshes
 cd ..
 catkin_make
 source devel/setup.bash
