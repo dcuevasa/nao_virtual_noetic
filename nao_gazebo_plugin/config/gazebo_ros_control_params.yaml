@@ -35,7 +35,7 @@ nao_dcm/gazebo_ros_control/pid_gains:
 
   LKneePitch: {p: 500.0, i: 0.0, d: 0.1}
 
-  LAnklePitch: {p: 500.0, i: 0.0, d: 0.1}
+  LAnklePitchJoint: {p: 500.0, i: 0.0, d: 0.1}
 
   LAnkleRoll: {p: 500.0, i: 0.0, d: 0.1}
 
@@ -47,6 +47,6 @@ nao_dcm/gazebo_ros_control/pid_gains:
 
   RKneePitch: {p: 500.0, i: 0.0, d: 0.1}
 
-  RAnklePitch: {p: 500.0, i: 0.0, d: 0.1}
+  RAnklePitchJoint: {p: 500.0, i: 0.0, d: 0.1}
 
   RAnkleRoll: {p: 500.0, i: 0.0, d: 0.1}
