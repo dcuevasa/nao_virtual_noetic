@@ -27,5 +27,7 @@
   <!-- Spawn a robot into Gazebo -->
 <!--  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -x 0 -y 0 -z 0.335 -model nao_robot_v4_H25" /> -->
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -x -0.5 -y 1 -z 0.335 -model nao_v40" /> 
+  <node name="cmd_vel" pkg="nao_gazebo_plugin" type="nao_cmd_vel.py" output="screen" />
+  <node name="walk_animations" pkg="nao_gazebo_plugin" type="nao_walking_animation.py" output="screen" />
 
 </launch>

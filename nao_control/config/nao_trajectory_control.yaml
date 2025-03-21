@@ -38,6 +38,7 @@ nao_dcm:
     type: position_controllers/JointTrajectoryController
     joints:
       - LHipYawPitch
+      - RHipYawPitch
   LeftLeg_controller:
     type: position_controllers/JointTrajectoryController
     joints:
