@@ -13,11 +13,12 @@ mkdir -p nao_sim_ws/src
 cd nao_sim_ws/src
 git clone https://github.com/dcuevasa/nao_virtual_noetic
 git clone https://github.com/dcuevasa/nao_robot_noetic
+git clone https://github.com/SinfonIAUniandes/robot_toolkit_msgs.git
 # In case you are missing any of these
 sudo apt-get install ros-noetic-tf2-sensor-msgs ros-noetic-ros-control ros-noetic-ros-controllers ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-plugins ros-noetic-controller-manager ros-noetic-ddynamic-reconfigure-python ros-noetic-nao-meshes
 cd ..
 catkin_make
 source devel/setup.bash
 # Launch your preferred simulation here
-roslaunch nao_gazebo_plugin nao_gazebo.launch
+roslaunch nao_gazebo_plugin nao_gazebo_in_office.launch
 ```
